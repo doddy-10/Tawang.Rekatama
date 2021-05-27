@@ -1,0 +1,309 @@
+
+body {
+  min-height: 4000px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+
+
+.navbar {
+  background-color: #161616;
+  opacity: 0.9;
+}
+
+
+.navbar-brand {
+  font-weight: 600;
+  
+}
+
+.nav-item {
+  font-weight: 600;
+  margin-right: 30px;
+} 
+
+.carousel-caption {
+ padding-bottom: 50px;
+ text-align: left;
+ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption h1 {
+  font-weight: 600;
+}
+
+.carousel-inner {
+  background-position: center;
+}
+
+.card-body {
+  color: white;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  margin-left: -30px;
+  margin-top: -10px;
+  opacity: 0.9;
+}
+
+.card a {
+  color: white;
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: #000000
+}
+
+
+.card-satu {
+  background-color: #ffcc29;
+  color: white;
+  font-weight: 600;
+}
+
+.card-dua {
+  background-color: white;
+  color: #000000;
+  font-weight: 600;
+}
+
+.card-tiga {
+  background-color: white;
+  color: #000000;
+  font-weight: 600;
+}
+
+.card-satu h5 {
+  color: white;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+.card-satu h6 {
+  margin-left: 10px;
+}
+
+.card-satu p {
+  margin-left: 10px;
+}
+
+.card-dua h5 {
+  color: #000000;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+.card-dua p {
+  margin-left: 10px;
+  color: #707070;
+}
+
+.card-dua h6 {
+  margin-left: 10px;
+}
+
+.card-tiga h5 {
+  color: #000000;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+.card-tiga h5 {
+  margin-left: 10px;
+}
+
+.card-tiga p {
+  margin-left: 10px;
+  color: #707070;;
+}
+
+.card-tiga h6 {
+  margin-left: 10px;
+}
+
+
+.card-title a {
+  color: white;
+  text-decoration: none;
+}
+
+.card-title {
+ margin-left: auto;
+}
+
+.card-satu a:hover {
+  color: #707070;
+}
+
+.card-dua a {
+  color: #707070;
+}
+
+.card-tiga a {
+  color: #707070;
+}
+ 
+.card-dua a:hover {
+  color: #ffcc29;
+}
+
+.card-tiga a:hover {
+  color: #ffcc29;
+}
+
+video {
+  padding-top: 20px;
+  width: 550px;
+  height: 300px;
+}
+
+.doc {
+  background-color: #ffcc29;
+  position: relative;
+}
+
+.video h5 {
+  margin-top: 3px;
+  font-weight: 600;
+  color: white;
+}
+
+.video p {
+  color: white;
+}
+
+
+.card-project-satu h5 {
+  font-weight: 600;
+  padding-top: 4px;
+}
+
+.card-project-satu p {
+ color: #707070;
+}
+
+
+.card-project-satu a {
+  color: white;
+}
+
+.card-project-dua a {
+  color: white;
+}
+
+.card-project-tiga a {
+  color: white;
+}
+
+.card-project-dua h5 {
+  font-weight: 600;
+  padding-top: 4px;
+}
+
+.card-project-dua p {
+ color: #707070;
+}
+
+
+.card-project-tiga h5 {
+  font-weight: 600;
+  padding-top: 4px;
+}
+
+.card-project-tiga p {
+ color: #707070;
+}
+
+.jumbotron {
+  background-image: url(img/slider1.png);
+  background-size: cover;
+  height: 591px;
+  margin-top: 50px;
+}
+
+.jumbotron .display-4 {
+  color: white;
+  text-align: left;
+ padding-top: 150px;
+ font-weight: 900;
+ font-size: 25px;
+ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron p {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.contact {
+  background-color: white;
+  height: 510px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  margin-top: -133px;
+  border-radius: 12px; 
+}
+
+.testi h3 {
+  color: #9F9F9F;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.slider-area {
+  background-color: #ffcc29;
+  padding: 50px;
+  position: relative;
+  margin: 50px 0;
+}
+
+.img-testi {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border: 3px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+
+.img-testi img {
+  width: 100%;
+}
+
+
+.carousel-testi {
+  position: static;
+  padding-bottom: 15px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.carousel-testi h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: white;
+}
+
+.carousel-testi p {
+  font-size: 18px;
+  color: white;
+  padding-bottom: 10px;
+
+}
+
+.carousel-testi h4 {
+  font-size: 16px;
+  color: white;
+}
+
